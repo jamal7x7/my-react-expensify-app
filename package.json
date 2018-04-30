@@ -24,7 +24,6 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^0.28.11",
-    "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
     "express": "^4.16.3",
@@ -51,6 +50,13 @@
     "uuid": "^3.2.1",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-to-json": "^3.3.3",
+    "jest": "20.0.4",
+    "react-test-renderer": "^16.3.2",
     "webpack-dev-server": "^3.1.1"
   }
 }
