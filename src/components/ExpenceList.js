@@ -7,6 +7,7 @@ import selectExpence from '../selectors/expences'
 export const ExpenceList = (props) => (
   <div>
     <h1>Expence List</h1>
+    <h3>{props.expences.map( e => e.amount ).reduce( (acc,curr) => acc + curr)}</h3>
     {
       props.expences.length !== 0 ? (
         props.expences.map( expence => {

@@ -2,37 +2,51 @@
 
 exports[`should render Header corectly 1`] = `
 <header>
-  <h1>
-    Expensify
+  <h1
+    className="title"
+  >
+    Expensify°
   </h1>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
-    exact={true}
-    to="/"
+  <div
+    className="navWrapper"
   >
-      Dashboard  
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
-    to="/create"
-  >
-      Create  
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
-    to="/edit"
-  >
-      Edit  
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    ariaCurrent="true"
-    to="/help"
-  >
-      Help  
-  </NavLink>
+    <div
+      className="nav"
+    >
+      <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        className="navLink"
+        exact={true}
+        to="/"
+      >
+          Dashboard  
+      </NavLink>
+      <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        className="navLink"
+        to="/create"
+      >
+          Create  
+      </NavLink>
+      <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        className="navLink"
+        to="/edit"
+      >
+          Edit  
+      </NavLink>
+      <NavLink
+        activeClassName="is-active"
+        ariaCurrent="true"
+        className="navLink"
+        to="/help"
+      >
+          Help  
+      </NavLink>
+    </div>
+  </div>
 </header>
 `;
